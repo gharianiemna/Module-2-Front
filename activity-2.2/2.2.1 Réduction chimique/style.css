@@ -81,7 +81,7 @@ td{
 
 /*Large devices */
 
-@media screen and (max-width: 1200px){
+@media (min-width: 768px) and (max-width: 1023px) {
 	h1{
 		text-align: center;
 		font-family: 'Quicksand', sans-serif;
