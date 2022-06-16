@@ -1,0 +1,175 @@
+
+
+body{
+	display: flex;
+	justify-content:center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-image: url('https://img.freepik.com/free-vector/back-school-background-doodle-style_6997-513.jpg?size=338&ext=jpg');
+}
+h1{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Shadows Into Light', cursive;
+	background-color: darkgrey;
+  }
+span{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	/* font-family: 'Quicksand', sans-serif;
+font-family: 'Shadows Into Light', cursive; */
+}
+table{
+	border-spacing: 5px;
+}
+
+td{
+	border: 1px white;
+	background: inherit;
+	width: 50px;
+	height: 60px;
+}
+
+/* les couleurs du tableau */
+
+.groupe-elements-1{
+	background-color:rgb(124, 111, 204);
+}
+
+.groupe-elements-2{
+	background-color:deepskyblue; 
+}
+
+.groupe-elements-3{
+	background-color: pink;
+	
+}
+
+.groupe-elements-4{
+	background-color: yellow;
+}
+
+.groupe-elements-5{
+	background-color:cornflowerblue;
+}
+
+.groupe-elements-6{
+	background-color:orangered;
+}
+
+.groupe-elements-7{
+	background-color: orange;
+}
+
+.groupe-elements-8{
+	background-color:rgb(29, 172, 29);
+}
+
+.groupe-elements-9{
+	background-color: red;
+}
+
+.groupe-elements-10{
+	background-color:plum;
+}
+
+.tabledeux{
+	margin-left: 135px;
+}
+
+
+
+/*Large devices */
+
+@media screen and (max-width: 1200px){
+	h1{
+		text-align: center;
+		font-family: 'Quicksand', sans-serif;
+		font-family: 'Shadows Into Light', cursive;
+		background-color: darkgrey;
+		font-size: 20px;
+	  }
+	span{
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		font-size: 10px;
+	}
+
+		td{
+		border: 0px solid black;
+		background: inherit;
+		width: 35px;
+		height: 45px;
+		}
+
+
+		.tabledeux{
+		margin-left: 90px;
+		margin-bottom: 
+		}
+}
+/* Medium devices */
+
+@media screen and (max-width: 992px){
+	h1{
+		text-align: center;
+		font-family: 'Quicksand', sans-serif;
+		font-family: 'Shadows Into Light', cursive;
+		background-color: darkgrey;
+		font-size: 15px;
+	  }
+	table{
+		border-spacing: 3px;
+		}
+		span{
+			display: block;
+			text-align: center;
+			font-weight: bold;
+			font-size: 6px;
+		}
+
+	td{
+		border: 0px solid black;
+		background: inherit;
+		width: 30px;
+		height: 40px;
+	}
+
+	.tabledeux{
+		margin-left: 85px;
+		margin-bottom: 
+	}
+
+}
+/* small devices*/
+@media screen and (max-width: 600px){
+	h1{
+		text-align: center;
+		font-family: 'Quicksand', sans-serif;
+		font-family: 'Shadows Into Light', cursive;
+		background-color: darkgrey;
+		font-size: 10px;
+	  }
+	table{
+		border-spacing: 1.5px;
+		}
+		span{
+			display: block;
+			text-align: center;
+			font-weight: bold;
+			font-size: 4px;
+		}
+
+	td{
+		border: 0px solid black;
+		background: inherit;
+		width: 15px;
+		height: 25px;
+	}
+
+	.tabledeux{
+		margin-left: 45px;
+	}
+
+}
