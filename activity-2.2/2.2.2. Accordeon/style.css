@@ -1,0 +1,149 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    
+ }
+ .div-principale {
+    display: grid;
+    grid-template-columns: 500px 500px 250px;
+    grid-template-rows: 50px 200px 100px 100px 100px 100px 100px 50px 100px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+  }
+
+  .rouge{
+    background-color:red;
+    grid-column: 1 / -1;
+    /* grid-column-end: -1; */
+  }
+  .orange{
+    background-color:orange;
+    grid-column: 1 / -1 ;
+
+  }
+  .jaune{
+    background-color: yellow;
+  }
+  .jaune1{
+    grid-column: 1 /2;
+    grid-row: 3/5;
+
+  }
+  .jaune2{
+    grid-column: 2/3;
+    grid-column-end: 3;
+    grid-row: 3/5;
+  }
+  
+  .jaune3{
+    grid-column: 1 /2;
+    grid-row: 5/7;
+  }
+  .jaune4{
+    grid-column: 2/3;
+    grid-column-end: 3;
+    grid-row: 5/7;
+  }
+  .rose{
+    background-color: pink;
+    grid-column: 1/3;
+    grid-row: 7/10;
+  
+  }
+  .vert{
+    background-color: green;
+    grid-column: 3/4;
+    grid-row:6/3;
+  }
+  .bleu{
+    background-color: blue;
+    grid-column: 3/4;
+    grid-row: 6/9;
+  }
+
+/*tablet*/
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .div-principale {
+      grid-template-rows: 50px 100px 100px 100px 100px 100px 100px 100px 100px;
+      grid-template-columns: 100px 200px 100px;
+    }
+    .rouge{
+      grid-template-rows: 50px;
+      grid-column:1/4;
+    }
+  
+    .jaune2,
+    .jaune3,
+    .jaune4 {
+      display: none;
+    }
+    .orange {
+        grid-column: 1/3;
+    }
+    .vert {
+        grid-column: 3/4;
+        grid-row:2/3;
+    }
+    .jaune1 {
+        grid-column: 1 /4;
+    }
+    .rose {
+      grid-row:5/7;
+      grid-column: 1/4;
+    }
+    .bleu {
+      grid-row:7/9;
+      grid-column: 1/4;
+     
+    }
+  }
+  
+  /* mobile*/
+
+  @media (max-width:767px) {
+    .div-principale {
+      grid-template-rows: 50px 150px 150px 150px 150px 150px;
+      grid-template-columns: 350px;
+    }
+  
+    .jaune2,
+    .jaune3,
+    .jaune4 {
+      display: none;
+    }
+  
+    .jaune1 {
+      grid-row: 2/3;
+    
+      grid-column: 1/2;
+    }
+  
+    .orange {
+      grid-row: 3/4;
+    
+      grid-column: 1/2;
+    }
+  
+    .rouge{
+      grid-template-rows: 50px;
+      grid-column: 1/2;
+      
+    }
+  
+    .vert {
+      grid-row: 4/5;
+    
+      grid-column: 1/2;
+    }
+    .rose {
+      grid-row: 5/6;
+    
+      grid-column: 1/2;
+    }
+    .bleu{
+      grid-row: 6/7;
+      grid-column: 1/2;
+    }
+  }
