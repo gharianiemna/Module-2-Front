@@ -1,0 +1,128 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+}
+.main-page{
+margin-right: 5rem;
+margin-left: 5rem;
+}
+img{border-radius: 10px;}
+.logo{
+opacity: 0.5;
+}
+.div2lignes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.logo-nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    align-content: center;
+}
+.nav-link{
+    display: flex !important;
+    color: rgba(0, 0, 0, 0.575) !important;
+    font-size: small !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+nav{
+    border-bottom: 1px solid rgb(233, 231, 231);
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search{
+     border: 1px solid rgb(233, 231, 231) ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 460px;
+     border-radius: 20px 20px;
+     font-size: 14px;
+     padding: 0;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 68, 178);
+    color: white;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.nav-item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.petites-images{
+    margin:1rem;
+    padding:1rem;
+    gap:5px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin:2rem;
+    padding:2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.quadri-images{   
+     gap:10px;
+     /* margin-top: 1rem; */
+     padding: 1rem;
+      justify-content: space-between;
+    align-items: center;}
+    .main-section{display: flex;
+        flex-direction: row;
+        gap:10px;
+        margin:2rem;
+        padding:2rem;
+        justify-content: space-between;
+        align-items: center;}
+  .pink-button{
+    background-color: crimson !important;
+    margin-top: 1.5rem;
+    font-weight:bolder;
+    color: aliceblue !important;
+  }
+
+  .card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap:10px;
+    margin:2rem;
+    padding:2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:2rem;
+    position: sticky;
+    font-size: small;
+}
