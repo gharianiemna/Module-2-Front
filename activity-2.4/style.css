@@ -1,0 +1,173 @@
+body {
+  margin: 0%;
+}
+
+nav {
+  margin-right: 3rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: arial;
+  font-size: 13px;
+  gap: 15px;
+}
+nav a {
+  cursor: pointer;
+  color: #444;
+  text-decoration: none;
+  top: -12px;
+  position: relative;
+  margin: 5px;
+  font-size: large;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav button {
+  background: rgb(33, 68, 228);
+  border: none;
+  padding: 8px 20px;
+  margin: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+  border-radius: 5px;
+  outline: none;
+}
+
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 75vh;
+  font-family: arial;
+}
+main form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  margin: 2rem;
+}
+main form input[type=text] {
+  width: 500px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+main button {
+  background-color: rgb(235, 231, 231);
+  border: none;
+  padding: 8px 20px;
+  margin: 5px;
+  color: black;
+  font-size: medium;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+main button:hover {
+  border: 1px solid rgb(172, 170, 170);
+}
+main p {
+  font-size: small;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 12px;
+  margin-top: 3%;
+  background-color: rgb(235, 231, 231);
+  font-family: arial;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-left: 5rem;
+}
+footer div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+footer a {
+  color: #444;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+footer a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
