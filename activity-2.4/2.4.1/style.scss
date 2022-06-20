@@ -1,5 +1,14 @@
 
 body{margin: 0%;}
+
+$font-stack: arial;
+
+@mixin centeritems(){
+justify-content: center;
+align-items: center;
+}
+
+
 nav{ 
   margin-right: 3rem;
   margin-top: 1rem;
@@ -7,8 +16,7 @@ nav{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-  
-    font-family: arial;
+    font-family: $font-stack;
     font-size: 13px;
     gap:15px;
     a {cursor: pointer;
@@ -85,17 +93,14 @@ display: block;
 
 main{
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+@include centeritems;
   min-height:75vh;
-
-  font-family: arial;
+  font-family: $font-stack;
 
     form{
       display: flex;
-      justify-content: center;
-align-items: center;
+@include centeritems;
       width: 500px;
       height: 50px;
         box-sizing: border-box;
@@ -143,12 +148,11 @@ footer {
   font-size: 12px;
   margin-top: 3%;
   background-color: rgb(235, 231, 231);
-  font-family: arial;
+  font-family: $font-stack;
   div{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @include centeritems;
     align-content: center;
     margin-left: 5rem;
     div{

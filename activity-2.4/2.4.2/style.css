@@ -1,0 +1,387 @@
+nav {
+  width: 100% !important;
+  border-bottom: 1px solid rgb(184, 184, 184);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+nav #navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  margin-top: 8px;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+nav .leftside {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  align-items: center;
+}
+nav .nav-item {
+  margin: 10px;
+  color: #222;
+}
+nav .nav-item .navicon {
+  width: 20px;
+  height: auto;
+  opacity: 0.9;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+nav .nav-item .navicon:hover {
+  opacity: 1;
+  border: 1px rgb(141, 134, 134);
+  box-shadow: 1px 2px 2px 1px rgba(117, 46, 46, 0.25);
+}
+nav .nav-item .link {
+  color: #222;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: gill Sans;
+}
+nav .nav-item .link:hover {
+  text-decoration: underline;
+  color: black;
+}
+nav .middleside {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+}
+nav .rightside {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-around;
+  margin: auto;
+  height: auto;
+  margin-left: 12px;
+  font-family: sans-serif;
+}
+nav .rightside .button1 {
+  background-color: rgb(10, 103, 156);
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+nav .rightside .button1:hover {
+  background-color: rgb(3, 63, 97);
+  border: 1px solid lightgray;
+  box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.25);
+}
+nav .rightside .button2 {
+  background-color: rgb(253, 254, 255);
+  font-size: 13px;
+  color: rgb(77, 73, 73);
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+nav .bi-chevron-down {
+  color: #222;
+}
+
+footer {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 2rem;
+  border-top: 2px solid rgba(237, 233, 233, 0.913);
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-content .footer-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+footer .footer-content .footer-item a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+}
+footer .footer-content .footer-item a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+footer .footer-content .side {
+  font-size: x-small;
+  padding-left: 5px;
+  border-left: 2px solid rgba(237, 233, 233, 0.913);
+}
+footer .footer-content .strong {
+  font-size: medium;
+}
+footer .footer-content h4 {
+  padding-bottom: 10px;
+}
+footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  padding-top: 5px;
+  border-top: 2px solid rgba(237, 233, 233, 0.913);
+}
+footer .footer-bottom a {
+  text-decoration: none;
+  color: gray;
+  padding-bottom: 5px;
+}
+footer .footer-bottom a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+footer img {
+  width: 200px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+footer .logo {
+  width: 10px;
+  margin-bottom: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main h1 {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large !important;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+main h1 hr {
+  width: auto;
+}
+main h2 {
+  margin-top: 1rem;
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+  border-top: 2px solid black;
+  align-items: flex-start;
+}
+main h5 {
+  margin: 0;
+  font-size: medium;
+  font-family: arial;
+  font-weight: bold;
+}
+main h5 span {
+  text-decoration: underline;
+}
+main h6 {
+  margin: 0;
+  font-size: small;
+  font-weight: 500;
+}
+main button {
+  border: 1px solid rgb(172, 170, 170);
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: small;
+  background-color: white;
+  padding: 0.5rem;
+}
+main figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  align-content: center;
+  align-items: center;
+}
+main figure img {
+  width: 1300px;
+  margin-top: 2rem;
+}
+main figure span {
+  color: grey;
+  align-self: flex-start;
+}
+main .bi {
+  width: 20px;
+}
+main #centerbutton {
+  margin-bottom: 2rem;
+  background-color: rgb(60, 91, 119);
+  border: 1px solid rgb(39, 58, 77);
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 600px;
+  font-size: small;
+  color: white;
+}
+main p {
+  font-family: arial;
+  width: 600px;
+}
+main ul {
+  width: 600px;
+  font-family: arial;
+}
+main ul li {
+  padding-top: 1rem;
+}
+main ul li a {
+  color: rgb(60, 91, 119);
+}
+main .content {
+  width: 600px;
+  margin: auto;
+}
+main .content .final-p {
+  font-size: 12px;
+  color: #666666;
+}
+main .content .final-p span {
+  text-decoration: underline;
+}
+main .content .final-p span:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+main .content img {
+  width: 600px;
+}
+main .content p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Charis SIL", serif;
+}
+main .content p a {
+  color: #326891;
+}
+main .content hr {
+  width: 33%;
+}
+main .content .thanks {
+  text-align: center;
+  font-size: 15px;
+  margin: 15px 0px 15px 0px;
+}
+main .content .thanks span {
+  font-weight: bolder;
+}
+main .content .thanks a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+  font-weight: bolder;
+}
+main .content .entete {
+  text-align: start;
+  font-size: 15px;
+  color: #727272;
+}
+main aside {
+  width: 945px;
+  margin: auto;
+}
+main aside h1 {
+  font-weight: 700;
+  margin: 0;
+}
+main aside .p1 {
+  margin: 0;
+  color: #666666;
+}
+main aside div {
+  width: 945px;
+  height: 576px;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main aside div p {
+  width: 228px;
+  position: relative;
+  top: 135px;
+  font-size: 14px;
+  text-align: left;
+}
+main aside img {
+  width: 945px;
+}
+
+.cards-body {
+  display: flex;
+  margin-left: 10rem;
+  margin-right: 15rem;
+  gap: 15px;
+}
+.cards-body .cards {
+  margin-right: 5px;
+  border-top: 1px solid black;
+}
+.cards-body .cards .card {
+  border: none;
+  margin: 15px;
+  height: 300px;
+}
+.cards-body .cards .card img {
+  width: 200;
+  height: 150px;
+}
+.cards-body .cards .card-title {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  font-size: x-small;
+  color: gray;
+}
+.cards-body .cards .date {
+  color: gray;
+  font-size: small;
+  font-family: arial;
+}
+.cards-body hr {
+  color: black;
+}
+.cards-body a {
+  font-family: "Times New Roman", Times, serif;
+}
+.cards-body a:link {
+  text-decoration: none;
+  color: black;
+}
+.cards-body a:link:hover {
+  opacity: 0.5;
+}
+.cards-body a.titre :hover {
+  text-decoration: underline;
+}
+.cards-body .side-bar {
+  margin-right: 15px;
+  border-top: 1px solid black;
+}
+.cards-body .side-bar .side-title {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+}/*# sourceMappingURL=style.css.map */
