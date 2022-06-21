@@ -1,0 +1,30 @@
+body{margin:0;
+  height:100vh;
+}
+
+h1{  align-self: center;}
+img{
+    width: 200px;
+    height: 200px;
+  margin:5px;
+}
+.home{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.gallerie{  
+  align-self: center;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* .modal-body img{
+  align-self: center !important;
+  width: 500px !important;
+  height: 500px !important;
+  margin:5px;
+} */
