@@ -1,0 +1,28 @@
+body{margin:7rem;
+    height:100vh;
+  }
+#inputs{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+    border-radius: 10px;
+    }
+    .error{
+        display: none;
+        margin-left: 10px;
+    }		
+    
+    .error_show{
+        color: red;
+        margin-left: 10px;
+    }
+
+    input.invalid, textarea.invalid{
+        border: 2px solid red;
+    }
+    
+    input.valid, textarea.valid{
+        border: 2px solid green;
+    }

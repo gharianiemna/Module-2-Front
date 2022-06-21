@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body> 
+
+
+       <form id="inputs">
+    <label for="fname">ENTER YOUR DATA</label> <br>
+    <input id="nom" type="text" placeholder="nom *"> <span class="error">This field is required</span><br>
+    <input id="prenom" type="text" placeholder="prenom *"> <span class="error">This field is required</span><br>
+    <input id="date" type="date" placeholder="date *">
+     <span class="error">This field is required</span> 
+    <span class="error2"> must be over 18</span><br>
+    <input id="mail" type="text" placeholder=" mail"><span class="error3">email is required</span> <br>
+    <input id="tel" type="number" placeholder="tel "><br>
+    <input id="rang" type="range"  min = "0" max = "7" placeholder="range "><br>
+    <input type="button" value="Submit" id="submit">
+
+  </form>
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
+
